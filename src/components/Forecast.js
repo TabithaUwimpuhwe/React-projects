@@ -2,7 +2,7 @@ import React from 'react';
 import './Forecast.css';
 
 export default class Forecast extends React.Component {
-  // returns weekday to a given Date value
+  // returns 5 weekday to a given Date value
   getDay = date => {
     let weekday = new Array(7);
     weekday[0] = 'Sunday';
